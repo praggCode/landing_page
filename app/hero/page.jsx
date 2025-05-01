@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Hero = () => {
   return (
@@ -114,6 +121,42 @@ const Hero = () => {
           Loved by fast growing companies
         </h3>
       </div>
+      <Carousel className="mt-10">
+        <CarouselContent>
+          <CarouselItem>
+            <img src="/company/c1.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c2.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c3.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c4.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c5.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c6.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c7.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c8.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c9.png" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src="/company/c10.png" />
+          </CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
       <div className="flex gap-6">
         <button className="bg-[#151531] text-white text-lg font-bold px-8 py-4 rounded-lg border border-[#151531] mt-10 cursor-pointer transition-all hover:scale-115">
           Get Started Now
