@@ -94,6 +94,31 @@ const Hero = () => {
           How to get started
         </h1>
       </div>
+      <div>
+        <img
+          src="/s7.png"
+          alt=""
+          className="w-full h-[500px] object-cover mt-5"
+        />
+      </div>
+      <div className="inline-block px-8 py-6 bg-[#11112b] rounded-2xl rotate-[-2deg]">
+        <code className="p-12 text-lg font-bold font-mono whitespace-nowrap">
+          <span className="text-pink-400">analytics</span>
+          <span className="text-white">.track(</span>
+          <span className="text-sky-400">'Customer Inbox'</span>
+          <span className="text-white">)</span>
+        </code>
+      </div>
+      <div className="max-w-[1000px] justify-center text-center mt-40">
+        <h3 className="text-[40px] leading-[1.1] font-bold text-[#151531]">
+          Loved by fast growing companies
+        </h3>
+      </div>
+      <div className="flex gap-6">
+        <button className="bg-[#151531] text-white text-lg font-bold px-8 py-4 rounded-lg border border-[#151531] mt-10 cursor-pointer transition-all hover:scale-115">
+          Get Started Now
+        </button>
+      </div>
     </div>
   );
 };
