@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   return (
@@ -70,9 +71,9 @@ const Navbar = () => {
             >
               Login
             </a>
-            <button className="bg-[#151531] hover:bg-[#ffffff] text-white hover:text-[#151531] font-bold px-4 py-3 rounded-lg border border-[#151531] cursor-pointer transition duration-300 ease-in-out">
+            <Button className="bg-[#151531] hover:bg-[#ffffff] text-white hover:text-[#151531] font-bold px-4 py-4 rounded-lg border border-[#151531] transition duration-300 ease-in-out" variant="default">
               Get Started
-            </button>
+            </Button>
           </div>
         </div>
       </div>

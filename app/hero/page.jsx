@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
@@ -23,12 +24,12 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex gap-6">
-        <button className="bg-[#ffffff] text-[#151531] text-lg font-bold px-8 py-4 rounded-lg border border-[#151531] mt-10 cursor-pointer transition-all hover:scale-115">
+        <Button className="bg-[#ffffff] text-[#151531] text-lg font-bold px-8 py-8 rounded-lg border border-[#151531] mt-10 transition-all hover:scale-115" variant="secondary">
           Get Started
-        </button>
-        <button className="bg-[#151531] text-white text-lg font-bold px-8 py-4 rounded-lg border border-[#151531] mt-10 cursor-pointer transition-all hover:scale-115">
+        </Button>
+        <Button className="bg-[#151531] text-white text-lg font-bold px-8 py-8 rounded-lg border border-[#151531] mt-10 transition-all hover:scale-115" variant="default">
           Get a Demo
-        </button>
+        </Button>
       </div>
       <div>
         <img
@@ -157,11 +158,6 @@ const Hero = () => {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <div className="flex gap-6">
-        <button className="bg-[#151531] text-white text-lg font-bold px-8 py-4 rounded-lg border border-[#151531] mt-10 cursor-pointer transition-all hover:scale-115">
-          Get Started Now
-        </button>
-      </div>
     </div>
   );
 };
