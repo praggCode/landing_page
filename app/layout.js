@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${fredoka.className}  ${geistMono.variable} antialiased px-25 h-[150px] bg-[url(/background.webp)] bg-center bg-no-repeat bg-cover`}
+        className={`${geistSans.variable} ${fredoka.className}  ${geistMono.variable} antialiased h-[150px] bg-[url(/background.webp)] bg-center bg-no-repeat bg-cover`}
       >
         {children}
       </body>

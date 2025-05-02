@@ -122,42 +122,44 @@ const Hero = () => {
           Loved by fast growing companies
         </h3>
       </div>
-      <Carousel className="mt-10">
-        <CarouselContent>
-          <CarouselItem>
-            <img src="/company/c1.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c2.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c3.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c4.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c5.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c6.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c7.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c8.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c9.png" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src="/company/c10.png" />
-          </CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
+      <div className="max-w-7xl mx-auto px-4">
+        <Carousel className="mt-10">
+          <CarouselContent>
+            <CarouselItem>
+              <img src="/company/c1.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c2.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c3.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c4.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c5.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c6.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c7.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c8.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c9.png" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src="/company/c10.png" />
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+      </div>
     </div>
   );
 };
