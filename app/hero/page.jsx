@@ -102,13 +102,33 @@ const Hero = () => {
           How to get started
         </h1>
       </div>
-      <div>
-        <img
-          src="/s7.png"
-          alt=""
-          className="w-full h-[500px] object-cover mt-5"
-        />
+      <div className="bg-white max-w-[900px] py-16 px-4 sm:px-8 md:px-16 text-[#0d0c22]">
+        <div className="mb-12">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          Already have a tool in place?
+        </h2>
+        <p className="text-lg">
+          Set up June in 2 mins. Don't believe us? Here is a{" "}
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="text-[#7f6bff] font-semibold">2 minute video</a>{" "}
+          showing it. Connect Segment, Amplitude, Mixpanel, or implement one of our SDKs.
+        </p>
       </div>
+
+      <div>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          Is June your first product analytics tool?
+        </h2>
+        <p className="text-lg mb-4">
+          Set up June with our easy to add snippet. It takes{" "}
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="text-[#7f6bff] font-semibold">less than 30 minutes</a>{" "}
+          and we give your engineer everything they need to get started quickly and{" "}
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="text-[#7f6bff] font-semibold">securely</a>.
+        </p>
+        <p className="text-lg">
+          We can provide both a SOC 2 report and can help you make sure you are GDPR compliant.
+        </p>
+      </div>
+    </div>
       <div className="inline-block px-8 py-6 bg-[#11112b] rounded-2xl rotate-[-2deg]">
         <code className="p-12 text-lg font-bold font-mono whitespace-nowrap">
           <span className="text-pink-400">analytics</span>
