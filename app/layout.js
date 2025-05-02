@@ -1,5 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Fredoka } from "next/font/google";
+
+const fredoka = Fredoka({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-fredoka", // optional, if you want CSS variable
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased px-25 h-[150px] bg-[url(/background.webp)] bg-center bg-no-repeat bg-cover`}
+        className={`${geistSans.variable} ${fredoka.className}  ${geistMono.variable} antialiased px-25 h-[150px] bg-[url(/background.webp)] bg-center bg-no-repeat bg-cover`}
       >
         {children}
       </body>

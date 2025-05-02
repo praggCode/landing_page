@@ -10,8 +10,8 @@ import {
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="max-w-[800px] justify-center text-center mt-15">
-        <h1 className="text-[70px] leading-[1.1] font-bold text-[#151531]">
+      <div className="max-w-[750px] justify-center text-center mt-15">
+        <h1 className="text-7xl font-extrabold tracking-tight text-center font-[Fredoka]">
           A dashboard for each of your customers
         </h1>
       </div>
