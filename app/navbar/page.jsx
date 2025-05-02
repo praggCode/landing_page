@@ -71,7 +71,10 @@ const Navbar = () => {
             >
               Login
             </a>
-            <Button className="bg-[#151531] hover:bg-[#ffffff] text-white hover:text-[#151531] font-bold px-4 py-4 rounded-lg border border-[#151531] transition duration-300 ease-in-out" variant="default">
+            <Button
+              className="bg-[#151531] hover:bg-[#ffffff] text-white hover:text-[#151531] font-bold px-4 py-4 rounded-lg border border-[#151531] transition duration-300 ease-in-out"
+              variant="default"
+            >
               Get Started
             </Button>
           </div>

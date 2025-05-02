@@ -5,7 +5,7 @@ import { Fredoka } from "next/font/google";
 const fredoka = Fredoka({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-fredoka", // optional, if you want CSS variable
+  variable: "--font-fredoka", 
 });
 
 const geistSans = Geist({
